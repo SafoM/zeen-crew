@@ -1,0 +1,431 @@
+<<<<<<< current
+body {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana;
+}
+
+header {
+  font-weight: bold;
+}
+/*Header content*/
+#page-header {
+  height: 100px;
+}
+.header-logo {
+  float: left;
+  margin-right: 10px;
+}
+  .header-logo > img {
+    height: 60px;
+    width: 60px;
+  }
+#header-name{
+  font-size: 40px;
+  color: #603813;
+  padding: 15px;
+  margin: 8px 0px;
+  font-weight: bold;
+}
+.search-box{
+  float: right;
+  padding: 5px;
+  margin: 10px 10px;
+  width: 200px;
+}
+nav{
+  height: 30px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+  nav ul {
+    list-style: none;
+    padding: 0px;
+  }
+    nav ul li {
+      display: inline-block;
+      color: white;
+    }
+.background-gradient{
+  background: -webkit-linear-gradient(left, #603813, #341c05);
+  background: -o-linear-gradient(right, #603813, #341c05);
+  background: -moz-linear-gradient(right, #603813, #341c05);
+  background: linear-gradient(right, #603813, #341c05);
+}
+
+/*Welcome image*/
+#welcome-image{
+  float: left;
+  width: 700px;
+}
+/*content of the month*/
+#clothing-of-the-month{
+  float: right;
+  width: 290px;
+}
+/*Welcome text*/
+#welcome-text{
+  float: left;
+  width: 70%;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+
+  #welcometext > header{
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+/*Events*/
+#events1{
+  float: right;
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  #events1 > header {
+    margin-left: 10px;
+    color: #603813;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+  }
+  #events1 > ul{
+    list-style: none;
+  }
+    #events1 > ul > li {
+      margin-bottom: 3px;
+    }
+
+/*Best selling items*/
+#bestsellers {
+  height: 100%;
+  width: 700px;
+  margin-bottom: 20px;
+}
+  #bestsellers > header {
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.headgear-bestsellers {
+  /*height:30px;
+  line-height: 30px;*/
+  float: left;
+}
+  .headgear-bestsellers > header {
+    height: 30px;
+    width: 690px;
+    line-height: 30px;
+    background-color: #603813;
+    color: white;
+    padding-left: 10px;
+  }
+
+.shirts-bestsellers{
+  clear: both;
+}
+  .shirts-bestsellers > header {
+    height: 30px;
+    width: 690px;
+    line-height: 30px;
+    background-color: #603813;
+    color: white;
+    padding-left: 10px;
+  }
+
+  .accessories-bestsellers{
+    clear: both;
+  }
+    .accessories-bestsellers > header {
+      height: 30px;
+      width: 690px;
+      line-height: 30px;
+      background-color: #603813;
+      color: white;
+      padding-left: 10px;
+    }
+
+.product-article{
+  width: 200px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.product-article-thumbnail{
+  width: 100px;
+  height: 150px;
+}
+.product-article-name{
+  font-size: 15px;
+  color: #603813;
+  font-weight: bold;
+
+}
+.product-article-price{
+  font-size:  15px;
+  color: green;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.product-article-more-info{
+  /*font-size: 12px;
+  color: #603813;
+  margin-top: 5px;*/
+}
+.add-to-cart-button{
+  cursor: pointer;
+  padding: 4px 25px;
+  background: #603813;
+  border: 1px solid #381f09;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+  box-shadow: 0 0 4px rgba(0,0,0, .75);
+  color: #f3f3f3;
+  font-size: 0.8em;
+  width: 80px;
+}
+  .add-to-cart-button:hover, .add-to-cart-button:focus {
+    background-color: #512c0a;
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    box-shadow: 0 0 1px rgba(0,0,0, .75);
+  }
+
+footer {
+  clear: both;
+  width: 100%;
+  background-color: #5c5045;
+  margin: 20px 0px 20px;
+  padding: 5px;
+}
+.small-text {
+  font-size: 10px;
+}
+=======
+body {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana;
+}
+
+header {
+  font-weight: bold;
+}
+/*Header content*/
+#page-header {
+  height: 100px;
+}
+.header-logo {
+  float: left;
+  margin-right: 10px;
+}
+  .header-logo > img {
+    height: 60px;
+    width: 60px;
+  }
+#header-name{
+  font-size: 40px;
+  color: #603813;
+  padding: 15px;
+  margin: 8px 0px;
+  font-weight: bold;
+}
+.search-box{
+  float: right;
+  padding: 5px;
+  margin: 10px 10px;
+  width: 200px;
+}
+nav{
+  height: 30px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+  nav ul {
+    list-style: none;
+    padding: 0px;
+  }
+    nav ul li {
+      display: inline-block;
+      color: white;
+    }
+.background-gradient{
+  background: -webkit-linear-gradient(left, #603813, #341c05);
+  background: -o-linear-gradient(right, #603813, #341c05);
+  background: -moz-linear-gradient(right, #603813, #341c05);
+  background: linear-gradient(right, #603813, #341c05);
+}
+
+/*Welcome image*/
+#welcome-image{
+  float: left;
+  width: 700px;
+}
+/*content of the month*/
+#clothing-of-the-month{
+  float: right;
+  width: 290px;
+}
+/*Welcome text*/
+#welcome-text{
+  float: left;
+  width: 70%;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+
+  #welcometext > header{
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+/*Events*/
+#events1{
+  float: right;
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  #events1 > header {
+    margin-left: 10px;
+    color: #603813;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+  }
+  #events1 > ul{
+    list-style: none;
+  }
+    #events1 > ul > li {
+      margin-bottom: 3px;
+    }
+
+/*Best selling items*/
+#bestsellers {
+  height: 100%;
+  width: 700px;
+  margin-bottom: 20px;
+}
+  #bestsellers > header {
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.headgear-bestsellers {
+  /*height:30px;
+  line-height: 30px;*/
+  float: left;
+}
+  .headgear-bestsellers > header {
+    height: 30px;
+    width: 690px;
+    line-height: 30px;
+    background-color: #603813;
+    color: white;
+    padding-left: 10px;
+  }
+
+.shirts-bestsellers{
+  clear: both;
+}
+  .shirts-bestsellers > header {
+    height: 30px;
+    width: 690px;
+    line-height: 30px;
+    background-color: #603813;
+    color: white;
+    padding-left: 10px;
+  }
+
+  .accessories-bestsellers{
+    clear: both;
+  }
+    .accessories-bestsellers > header {
+      height: 30px;
+      width: 690px;
+      line-height: 30px;
+      background-color: #603813;
+      color: white;
+      padding-left: 10px;
+    }
+
+.product-article{
+  width: 200px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.product-article-thumbnail{
+  width: 100px;
+  height: 150px;
+}
+.product-article-name{
+  font-size: 15px;
+  color: #603813;
+  font-weight: bold;
+
+}
+.product-article-price{
+  font-size:  15px;
+  color: green;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.product-article-more-info{
+  /*font-size: 12px;
+  color: #603813;
+  margin-top: 5px;*/
+}
+.add-to-cart-button{
+  cursor: pointer;
+  padding: 4px 25px;
+  background: #603813;
+  border: 1px solid #381f09;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+  box-shadow: 0 0 4px rgba(0,0,0, .75);
+  color: #f3f3f3;
+  font-size: 0.8em;
+  width: 80px;
+}
+  .add-to-cart-button:hover, .add-to-cart-button:focus {
+    background-color: #512c0a;
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    box-shadow: 0 0 1px rgba(0,0,0, .75);
+  }
+
+footer {
+  clear: both;
+  width: 100%;
+  background-color: #5c5045;
+  margin: 20px 0px 20px;
+  padding: 5px;
+}
+.small-text {
+  font-size: 10px;
+}
+>>>>>>> before discard
