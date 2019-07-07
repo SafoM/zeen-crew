@@ -5,11 +5,12 @@ body{
   font-family: sans-serif;
 }
 
-/*Header Element Source: https://www.w3schools.com/howto/howto_css_responsive_header.asphttps://www.w3schools.com/howto/howto_css_responsive_header.asp*/
+/*Header Element*/
 .page-header{
-  overflow: hidden;
+  overflow: hidden; /* */
   background-color: #c0c0c0;
   padding: 20px 10px;
+
 }
 .page-header a {
   float: left;
@@ -41,6 +42,10 @@ body{
   float: right;
 }
 
+.header-right .icon{
+  display: none;
+}
+
 /*Add media queries for responsiveness - when the screen is 500px wide or less, stack the lilnks on top of each other */
 @media screen and (max-width: 500px) {
   .page-header a {
@@ -57,7 +62,7 @@ body{
 *{box-sizing: border-box}
 /*slideshow container*/
 .slideshow-container{
-  max-width: 1000px;
+  width: 1000px; /* originally this was max-width: 1000px; */
   position: relative;
   margin: auto;
 }
@@ -130,8 +135,10 @@ img {vertical-align: middle;}
 .profile-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin:auto;
   text-align: center;
+  display: inline-block; /* line 139, 140, 141 are custom properties I added. I removed margin:auto to make use for margin-right*/
+  position: relative;
+  margin-right: 1em;
 }
 
 .profile-card-title {
@@ -158,3 +165,4 @@ button:hover {
 
 /*Placeholder*/
 #more {display: none;}
+#myBtn{width: auto;}
